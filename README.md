@@ -1,1 +1,3 @@
-# Gallery-app
+# Demo-gallery-app
+Demo app for image gallery
+
