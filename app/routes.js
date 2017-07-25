@@ -6,11 +6,13 @@ import AddCharacter from './components/AddCharacter';
 import Character from './components/Character';
 import CharacterList from './components/CharacterList';
 import Stats from './components/Stats';
+import Gallery from './components/Gallery';
 
 export default (
   <Route component={App}>
     <Route path='/' component={Home} />
     <Route path='/add' component={AddCharacter} />
+    <Route path='/gallery' component={Gallery} />
     <Route path='/characters/:id' component={Character} />
     <Route path='/stats' component={Stats} />
     <Route path=':category' component={CharacterList}>
